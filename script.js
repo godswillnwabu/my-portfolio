@@ -22,7 +22,6 @@ fadeIn.onanimationend = () => {
     fadeIn.style.opacity = 1;
 };
 
-// document.querySelector("nav-item").addEventListener('click', function() {
 //     window.scrollTo({
 //       top: 0,
 //       left: 0,
