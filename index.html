@@ -10,6 +10,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function(){
+            emailjs.init("TKS-AwTMlLHKZZHoO"); //Account Public Key
+        })();
+    </script>
 </head>
 
 <body id="home">
@@ -283,28 +288,34 @@
                     </div>
                 </div>
                 <div style="margin-top: 60px; margin-bottom: 100px;">
-                    <div class="d-flex justify-content-center form">
-                        <input type="text" class="form-control rounded-0" id="message" placeholder="Email Me Here">
-                        <button onclick = "sendMail();">Send</button>
+                    <div class="row g-3 justify-content-center form">
+                        <div class="col-md-6 form-name">
+                            <input type="text" class="form-control rounded-0" id="fullname" placeholder="Your Name"> 
+                        </div>
+                        <div class="col-md-6 form-email">
+                            <input type="email" class="form-control rounded-0" id="email" placeholder="Your Email">
+                        </div>
+                        <div class="col-12 form-message">
+                            <textarea class="form-control rounded-0" id="message" rows="5" placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-submit">
+                            <button onclick = "sendMail();">Send</button>
+                        </div>
                     </div>
                     <script>
                         function sendMail() {
-                            (function(){
-                                emailjs.init("xVjnBv7Qzep-kbinZ"); //Account Public Key
-                            })();
-
-                            var params = {
-                                message: document.querySelector("#message").value,
-                            };
 
                             var serviceID = "service_iul91wp"; //Service ID
-                            var templateID = "template_m413bjw" //Template ID
+                            var templateID = "template_120flnk" //Template ID
 
-                            emailjs.send(serviceID, templateID, params)
-                            .then( res => {
+                            var params = {
+                                from_name : document.getElementById('fullname').value,
+                                email_id : document.getElementById('email').value,
+                                message: document.getElementById("message").value,
+                            }
+                            emailjs.send(serviceID, templateID, params).then( res => {
                                 alert("Email Sent Successfully" + res.status);
                             })
-                            .catch();
                         }
                     </script>
                 </div>
