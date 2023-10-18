@@ -290,13 +290,13 @@
                 <div style="margin-top: 60px; margin-bottom: 100px;">
                     <div class="row g-3 justify-content-center form">
                         <div class="col-md-6 form-name">
-                            <input type="text" class="form-control rounded-0" id="fullname" placeholder="Your Name"> 
+                            <input required type="text" class="form-control rounded-0" id="fullname" placeholder="Your Name"> 
                         </div>
                         <div class="col-md-6 form-email">
-                            <input type="email" class="form-control rounded-0" id="email" placeholder="Your Email">
+                            <input required type="email" class="form-control rounded-0" id="email" placeholder="Your Email">
                         </div>
                         <div class="col-12 form-message">
-                            <textarea class="form-control rounded-0" id="message" rows="5" placeholder="Message"></textarea>
+                            <textarea required class="form-control rounded-0" id="message" rows="5" placeholder="Message"></textarea>
                         </div>
                         <div class="form-submit">
                             <button onclick = "sendMail();">Send</button>
