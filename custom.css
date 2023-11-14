@@ -10,7 +10,7 @@
     --bgBlack: #000;
     --faintWhite: #b7b4b9;
     --fairWhite: #fafafa;
-    --faintBlack: rgba(0, 0, 0, 0.8);
+    --faintBlack: rgba(0, 0, 0, 0.8); 
     --navMenuBg: rgba(255,255,255,0.2);
 }
 a {
@@ -24,6 +24,7 @@ li {
 }
 html {
     scroll-behavior: smooth;
+    scroll-behavior: cubic-bezier(0.42,0,0.58,1);
 }
 body {
     padding: 10px;
@@ -68,6 +69,10 @@ nav > a {
     display: flex;
     align-items: center;
     justify-content: center;
+    visibility: hidden;
+}
+nav > a.show-link {
+    visibility: visible;
     z-index: 100;
 }
 .resume {
