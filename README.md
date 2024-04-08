@@ -1,6 +1,6 @@
 ## Portfolio-home
 Check out the Live Website -
-[My-Portfolio/home](https://godswillnwabu.github.io/Portfolio-home/)
+[My-Portfolio/home](https://godswillnwabu.github.io/my-portfolio-home/)
 ![Portfolio/home](https://github.com/godswillnwabu/Portfolio-home/assets/112035653/9d430411-dcc1-4e63-8850-dbb124fb0115)
 
 ## About
