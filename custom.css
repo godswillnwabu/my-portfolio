@@ -99,12 +99,22 @@ nav > a.show-link {
     font-weight: 400;
     font-size: 20px;
     color: var(--colorWhite);
-    transition: all 0.2s ease-in;
+    transition: all 1s ease-in;
 }
-.nav-item a:hover {
+.nav-item {
     color: var(--colorWhite);
+}
+.nav-menu li:nth-child(1):hover {
     background-color: var(--colorBlue);
     transform: skewX(-8deg) skewY(4deg);
+}
+.nav-menu li:nth-child(2):hover {
+    background-color: var(--colorBlue);
+    transform: skewX(0deg) skewY(0deg);
+}
+.nav-menu li:nth-child(3):hover {
+    background-color: var(--colorBlue);
+    transform: skewX(8deg) skewY(-4deg);
 }
 .bar {
     display: block;
@@ -149,8 +159,13 @@ nav > a.show-link {
         top: 70px;
         opacity: 1;
     }
-    .nav-item a:hover {
-        transform: skew(0deg);
+    .nav-item a {
+        padding: 5px 10px;
+    }
+    .nav-menu li:nth-child(1):hover,
+    .nav-menu li:nth-child(2):hover,
+    .nav-menu li:nth-child(3):hover {
+        transform: skewX(0deg) skewY(0deg);
     }
     .hero-content {
         flex-direction: column-reverse;
