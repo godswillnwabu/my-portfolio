@@ -3,7 +3,7 @@ import aboutData from "../../Components/Data/aboutData";
 function AboutSection() {
 
     return (
-        <section id="about" className="w-full h-auto flex flex-col items-center justify-center pt-20">
+        <section id="about" className="w-full h-auto flex flex-col items-center justify-center pt-40">
 
             <div className="text-center max-w-5xl px-4">
                 <h2 className="font-michroma text-4xl md:text-6xl text-center capitalize mb-10">What I Do:</h2>

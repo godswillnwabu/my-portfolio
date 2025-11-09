@@ -62,7 +62,7 @@ const MySwiper = () => {
                         </div>
 
                         <div className='flex flex-col items-center lg:items-start'>
-                            <h2 className='font-montserrat tracking-wider text-3xl md:text-5xl lg:text-4xl font-bold mb-4'>
+                            <h2 className='font-montserrat tracking-wider text-2xl md:text-5xl lg:text-4xl font-bold mb-4'>
                                 {project.title}
                             </h2>
                             <div className='flex gap-3 mb-10 font-oswald tracking-wide'>
