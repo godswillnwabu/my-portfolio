@@ -12,7 +12,7 @@ function HeroSection() {
 
             <div className="z-10 max-w-4xl px-4 py-20">
 
-                <div className="mt-20">
+                <div className="mt-10 md:mt-20">
                     <h1 className="font-michroma text-3xl md:text-5xl font-bold mb-7 tracking-wider">Hi, I'm Godswill</h1>
                     <p className="font-poppins mb-15 tracking-widest leading-relaxed">
                         I am a software developer who crafts user-friendly interfaces and builds efficient backend systems. With years of hands-on experience in coding and debugging, I enjoy turning ideas into functional, high-performance applications. My goal is always to deliver fast, responsive, and reliable websites that feel seamless across all devices.

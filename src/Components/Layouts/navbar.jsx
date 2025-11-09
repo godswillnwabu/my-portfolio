@@ -70,7 +70,7 @@ function Navbar() {
                 </div>
 
                 <div className={`absolute top-full left-0 w-full bg-black/90 backdrop-blur-sm border-t border-gray-700 text-center transition-all duration-500 ease-in-out overflow-hidden ${isOpen ? "max-h-60 opacity-100" : "max-h-0 opacity-0"}`}>
-                    <ul className="flex flex-col space-y-4 py-4 uppercase tracking-wider">
+                    <ul className="flex flex-col space-y-4 py-10 uppercase tracking-wider">
                         {["home", "about", "projects", "contact"].map((link) => (
                             <li key={link}>
                                 <a
