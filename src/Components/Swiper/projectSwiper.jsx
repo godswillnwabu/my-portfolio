@@ -77,7 +77,7 @@ const MySwiper = () => {
                                 </span>
                             </div>
 
-                            <p className='font-poppins leading-relaxed mb-10 text-justify'>
+                            <p className='font-poppins leading-relaxed mb-10 text-center md:text-justify'>
                                 {project.description}
                             </p>
 

@@ -5,7 +5,7 @@ const aboutData = [
         id: 1,
         icon: <FaPenNib />,
         title: "Design",
-        tools: ["Figma"],
+        tools: ["Figma", "Webflow"],
         description: "Craft intuitive and visually appealing UI mockups for a smooth user experience."
     },
     {

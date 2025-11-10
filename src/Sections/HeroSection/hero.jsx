@@ -6,7 +6,7 @@ import { FaTasks } from "react-icons/fa";
 function HeroSection() {
 
     return (
-        <section id="home" className="relative w-full min-h-screen md:h-[100dvh] flex items-center justify-center text-center text-white overflow-y-auto">
+        <section id="home" className="relative w-full min-h-screen flex items-center justify-center text-center text-white">
 
             <Background />
 
@@ -14,7 +14,7 @@ function HeroSection() {
 
                 <div className="mt-5 md:mt-20">
                     <h1 className="font-michroma text-3xl md:text-5xl font-bold mb-7 tracking-wider">Hi, I'm Godswill</h1>
-                    <p className="font-poppins mb-15 tracking-widest leading-relaxed">
+                    <p className="text-center font-poppins mb-15 md:tracking-wide leading-relaxed">
                         I am a software developer who crafts user-friendly interfaces and builds efficient backend systems. With years of hands-on experience in coding and debugging, I enjoy turning ideas into functional, high-performance applications. My goal is always to deliver fast, responsive, and reliable websites that feel seamless across all devices.
                         <span className="hidden md:block mt-4">
                             In addition, I have earned certifications from AltSchool Africa, Udemy and SoloLearn, each strengthening my understanding of modern web tehnologies and industry best practices.
