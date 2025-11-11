@@ -61,6 +61,11 @@ const MySwiper = () => {
                                 className='w-full h-9/10 object-contain' />
                         </div>
 
+                        <div className="block lg:hidden">
+                            <img src={project.ImageTwo} alt={project.title} 
+                                className="w-full h-8/10 object-contain" />
+                        </div>
+
                         <div className='flex flex-col items-center lg:items-start'>
                             <h2 className='font-montserrat tracking-wider text-2xl md:text-5xl lg:text-4xl font-bold mb-4'>
                                 {project.title}

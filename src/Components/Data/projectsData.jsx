@@ -6,11 +6,20 @@ import EstateImg from "../../assets/ProjectImages/estate-thumbnail.jpg";
 import FarmtekImg from "../../assets/ProjectImages/farmtek-thumbnail.jpg";
 import Cloud9Img from "../../assets/ProjectImages/cloud9-thumbnail.jpg";
 
+import MobilePortfolio from "../../assets/MobileImages/portfolio-img.png";
+import MobileHealth from "../../assets/MobileImages/health-street-img.png";
+import MobileRentMe from "../../assets/MobileImages/rent-me-img.png";
+import MobileConnak from "../../assets/MobileImages/connak-img.png";
+import MobileEstate from "../../assets/MobileImages/estate-img.png";
+import MobileFarmtek from "../../assets/MobileImages/farmtek-img.png";
+import MobileCloud9 from "../../assets/MobileImages/cloud9-img.png";
+
 
 const projectsData = [
     {
         id: 1,
         Image: PortfolioImg,
+        ImageTwo: MobilePortfolio,
         title: "Portfolio Site",
         captionOne: "Web Design",
         captionTwo: "Development",
@@ -22,6 +31,7 @@ const projectsData = [
     {
         id: 2,
         Image: HealthStreetImg,
+        ImageTwo: MobileHealth,
         title: "Health Street",
         captionOne: "Web Design",
         captionTwo: "Development",
@@ -33,6 +43,7 @@ const projectsData = [
     {
         id: 3,
         Image: RentMeImg,
+        ImageTwo: MobileRentMe,
         title: "Rent Me - hackathon",
         captionOne: "Web Design",
         captionTwo: "Development",
@@ -44,6 +55,7 @@ const projectsData = [
     {
         id: 4,
         Image: ConnakImg,
+        ImageTwo: MobileConnak,
         title: "Connak Foundation",
         captionOne: "Web Design",
         captionTwo: "Development",
@@ -55,6 +67,7 @@ const projectsData = [
     {
         id: 5,
         Image: EstateImg,
+        ImageTwo: MobileEstate,
         title: "Estate Landing Page",
         captionOne: "Web Design",
         captionTwo: "Development",
@@ -66,6 +79,7 @@ const projectsData = [
     {
         id: 6,
         Image: FarmtekImg,
+        ImageTwo: MobileFarmtek,
         title: "Farmtek E-commerce",
         captionOne: "Web Design",
         captionTwo: "Development",
@@ -77,6 +91,7 @@ const projectsData = [
     {
         id: 7,
         Image: Cloud9Img,
+        ImageTwo: MobileCloud9,
         title: "Cloud 9 Landing Page",
         captionOne: "Web Design",
         captionTwo: "Development",
